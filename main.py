@@ -14,7 +14,7 @@ print("Mental Health is basically the state of your mind and feelings you feel e
 print("")
 print("")
 while True:
-  fun_fact = input("DO you want to know a fun fact yes or no: ").lower()
+  fun_fact = input("DO you want to know a sad fact yes or no: ").lower()
 
   if fun_fact == "yes":  
     print("Do you know that in South Korea every 40 min a person commits suicide and in UK every 90 mins a person commits suicide")
@@ -79,7 +79,7 @@ def breathe():
           print("Exhale")
           stop = input("Do you want to stop? yes/no: ").lower()
           if stop == "yes":
-              print("Thank you for TALKING")
+              print("Thank you for TALKING remember to take care of your mental health")
               break
           elif stop == "no":
               continue
